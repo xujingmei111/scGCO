@@ -7,8 +7,7 @@ The reposity contains both the implementations of our methods,as well as case st
 
 The primary implementation is as a Python 3 package,and can be installed from the command line by
 
-```$ pip install scgco
-```
+	pip install scgco
 
 ### License
 MIT Licence, see LICENSE file.
