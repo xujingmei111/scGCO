@@ -22,7 +22,7 @@ For bugs,feedback or help you can contact Peng Wang <wangpeng@picb.ac.cn>.
 
 ## Example usage of scGCO
 
-As an example, let’s analyze spatially variable gene expression in Mouse Olfactory Bulb using a data set published in [Stahl et al 2016](http://science.sciencemag.org/content/353/6294/78). 
+As an example, let’s analyze spatially variable gene expression in Mouse Olfactory Bulb using a data set published in [Ståhl et al 2016](http://science.sciencemag.org/content/353/6294/78). 
 
 ### Input Format
 The required matrix format is the ST data format, a matrix of counts where spot coordinates are row names and the gene names are column names. This matrix format (.TSV) is split by tab.
