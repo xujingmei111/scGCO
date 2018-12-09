@@ -8,6 +8,11 @@ This repository contains source codes of scGCO, and tutorials on running the pro
 The primary implementation is as a Python 3 package,and can be installed from the command line by
 
 	pip install scgco
+	
+scGCO is friendly for Linux (UNIX-like systems),Mac OS X and Windows.**scGCO** depended pygco,shapely,matplotlib (matplotlib<3.0.0,>=2.0.0) and so on.Maybe there are some touble about shapely when install scGCO on Windows, you can firstly install shapely by 
+	''' conda install shapely
+	'''
+	
 
 ### License
 MIT Licence, see LICENSE file.
