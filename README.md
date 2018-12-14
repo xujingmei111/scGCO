@@ -9,9 +9,7 @@ The primary implementation is as a Python 3 package,and can be installed from th
 
 	pip install scgco
 	
-**scGCO** is friendly for Linux (UNIX-like systems), Mac OS X and Windows.**scGCO** depend on pygco,shapely,matplotlib (matplotlib<3.0.0,>=2.0.0) and so on. Maybe there are some touble about shapely when install scGCO on Windows, you can firstly install shapely by 
-
-	conda install shapely
+**scGCO** has been tested on Ubuntu Linux (18.04.1), Mac OS X (10.14.1) and Windows(Windows 7 Professional)
 	
 	
 
