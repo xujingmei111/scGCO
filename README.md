@@ -9,7 +9,7 @@ The primary implementation is as a Python 3 package, and can be installed from t
 
 	pip install scgco
 	
-**scGCO** has been tested on Ubuntu Linux (18.04.1), Mac OS X (10.14.1) and Windows(Windows 7 Professional)
+**scGCO** has been tested on Ubuntu Linux (18.04.1), Mac OS X (10.14.1) and Windows(Windows 7 Professional).
 	
 	
 
