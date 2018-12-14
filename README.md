@@ -5,7 +5,7 @@
  
 This repository contains source codes of scGCO, and tutorials on running the program.
 
-The primary implementation is as a Python 3 package,and can be installed from the command line by
+The primary implementation is as a Python 3 package, and can be installed from the command line by
 
 	pip install scgco
 	
