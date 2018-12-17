@@ -1552,7 +1552,7 @@ def visualize_tsne_density(tsne_proj, threshold=0.001, bins=100, fileName=None):
                origin='lower', extent=[xmin, xmax, ymin, ymax],
                   aspect='auto')
     # plot threshold contour
-    cs = ax.contour(xx, yy, zz, levels=[threshold], colors='black', line_width=10)
+    cs = ax.contour(xx, yy, zz, levels=[threshold], colors='black')
     # show
     fig.colorbar(im)   
 
