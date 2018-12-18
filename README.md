@@ -34,7 +34,7 @@ For bugs,feedback or help you can contact Peng Wang <wangpeng@picb.ac.cn>.
 
 The following codes demonstrate the typical data analysis flow of scGCO. 
 
-The tutorial has also been provided as a Jupyter Notebook in the Tutorial directory (scGCO_tutorial.ipynb)
+The tutorial has also been provided as a Jupyter Notebook in the **Tutorial directory** (scGCO_tutorial.ipynb)
 
 The entire process should only take 1-2 minutes on a typical desktop computer with 8 cores.
 
@@ -157,7 +157,7 @@ scGCO.pdf_voronoi_boundary(geneID, locs, exp, newLabels, min(p),  'Nrgn.pdf')
 ```
 ## Reproducibility
 
-Two Jupyter Notebooks are provided in the Analysis directory to reproduce figures of the main text. 
+Two Jupyter Notebooks are provided in the **Analysis directory** to reproduce figures of the main text. 
 
 Both should take less than 1 minute to finish.
 
