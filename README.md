@@ -34,7 +34,7 @@ For bugs,feedback or help you can contact Peng Wang <wangpeng@picb.ac.cn>.
 
 The following codes demonstrate the typical data analysis flow of scGCO. 
 
-The tutorial has also been provided as a Jupyter Notebook in the **Tutorial directory** (scGCO_tutorial.ipynb)
+The tutorial has also been provided as a Jupyter Notebook in the **Tutorial** directory (scGCO_tutorial.ipynb)
 
 The entire process should only take 1-2 minutes on a typical desktop computer with 8 cores.
 
@@ -157,17 +157,17 @@ scGCO.pdf_voronoi_boundary(geneID, locs, exp, newLabels, min(p),  'Nrgn.pdf')
 ```
 ## Reproducibility
 
-Two Jupyter Notebooks are provided in the **Analysis directory** to reproduce figures of the main text. 
+Two Jupyter Notebooks are provided in the **Analysis** directory to reproduce figures of the main text. 
 
 Both should take less than 1 minute to finish.
 
-gen_FIG2_A_B_D.ipynb: this notebook will reproduce Fig.2 A, B and D.
+* gen_FIG2_A_B_D.ipynb: this notebook will reproduce Fig.2 A, B and D.
 
-gen_FIG2_C_E_F.ipynb: this notebook will reproduce Fig.2 C, E and F.
+* gen_FIG2_C_E_F.ipynb: this notebook will reproduce Fig.2 C, E and F.
 
 Several Jupyter Notebooks are provided in the Simulation directory to reproduce the running time simulation results reported in the main text.
 
-scGCO_simulate_script.ipynb: benchmark the running time of scGCO using simulated data with cell numbers upto 10K. 
+* scGCO_simulate_script.ipynb: benchmark the running time of scGCO using simulated data with cell numbers upto 10K. 
 
 This script should take less than 2 minutes to finish on a typical 8 cores computer.
 
@@ -177,6 +177,6 @@ The following three scripts simulated greater number of cells and will take subs
 
 The 1M simulation takes about 3 hours using a typical 8 cores computer.
 
-scGCO_simulate_100k.ipynb: benchmark the running time of scGCO using simulated data with 100K cells.
-scGCO_simulate_500k.ipynb: benchmark the running time of scGCO using simulated data with 500K cells.
-scGCO_simulate_1M.ipynb: benchmark the running time of scGCO using simulated data with 1M cells.
+* scGCO_simulate_100k.ipynb: benchmark the running time of scGCO using simulated data with 100K cells.
+* scGCO_simulate_500k.ipynb: benchmark the running time of scGCO using simulated data with 500K cells.
+* scGCO_simulate_1M.ipynb: benchmark the running time of scGCO using simulated data with 1M cells.
