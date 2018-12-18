@@ -176,7 +176,7 @@ This script should take less than 2 minutes to finish on a typical 8 cores compu
 
 ### Simulating large data sets
 
-The following three scripts simulated greater number of cells and will take substantially more time to finish.
+The following three scripts simulated greater numbers of cells and will take substantially more time to finish.
 The 1M simulation takes about 3 hours using a typical 8 cores computer.
 * scGCO_simulate_100k.ipynb: benchmark the running time of scGCO using simulated data with 100K cells.
 * scGCO_simulate_500k.ipynb: benchmark the running time of scGCO using simulated data with 500K cells.
