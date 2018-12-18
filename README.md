@@ -165,9 +165,13 @@ Both should take less than 1 minute to finish.
 
 * gen_FIG2_C_E_F.ipynb: this notebook will reproduce Fig.2 C, E and F.
 
-Several Jupyter Notebooks are provided in the Simulation directory to reproduce the running time simulation results reported in the main text.
+### Simulating small data sets
 
+Several Jupyter Notebooks are provided in the **Simulation**  directory to reproduce the running time simulation results reported in the main text.
 
+* scGCO_simulate_script.ipynb: benchmark the running time of scGCO using simulated data with cell numbers upto 10K. 
+
+This script should take less than 2 minutes to finish on a typical 8 cores computer.
 
 
 ### Simulating large data sets
@@ -179,6 +183,3 @@ The 1M simulation takes about 3 hours using a typical 8 cores computer.
 * scGCO_simulate_100k.ipynb: benchmark the running time of scGCO using simulated data with 100K cells.
 * scGCO_simulate_500k.ipynb: benchmark the running time of scGCO using simulated data with 500K cells.
 * scGCO_simulate_1M.ipynb: benchmark the running time of scGCO using simulated data with 1M cells.
-* scGCO_simulate_script.ipynb: benchmark the running time of scGCO using simulated data with cell numbers upto 10K. 
-
-This script should take less than 2 minutes to finish on a typical 8 cores computer.
