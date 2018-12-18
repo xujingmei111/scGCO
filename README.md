@@ -87,7 +87,7 @@ scGCO.multipage_pdf_visualize_spatial_genes(fdr01.iloc[0:10,], locs, data_norm, 
 ```
 
 
-![png](notebooks/figures/top_genes.png)
+![png](Tutorial/figures/top_genes.png)
 
 
 
@@ -103,7 +103,7 @@ zz = scGCO.visualize_tsne_density(tsne_proj)
 ```
 
 
-![png](notebooks/figures/density.png)
+![png](Tutorial/figures/density.png)
 
 
 
@@ -148,7 +148,7 @@ scGCO.pdf_voronoi_boundary(geneID, locs, exp, newLabels, min(p),  'Nrgn.pdf')
 ```
 
 
-![png](notebooks/figures/Nrgn.png)
+![png](Tutorial/figures/Nrgn.png)
 
 
 
