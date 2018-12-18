@@ -184,4 +184,4 @@ The 1M simulation takes about 3 hours using a typical 8 cores computer.
 
 The inputs to the scripts are too big to be uploaded to GitHub. In order to run the simulations, please run the script create_simulation_bigdata.ipynb in the **Simulation** directory first to create the three input files, then execute the three scripts.
 
-* create_simulation_bigdata.ipynb is an R notebook, and should be executed under R enviroment.
+create_simulation_bigdata.ipynb is an R notebook, and should be executed under R enviroment.
