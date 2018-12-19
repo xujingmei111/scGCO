@@ -1423,9 +1423,9 @@ def identify_spatial_genes(locs, data_norm, smooth_factor=10,
     :rtype: prediction: a dataframe
     '''    
     num_cores = mp.cpu_count()
-    step=round(data_norm.shape[1]/num_cores)+1
-    ttt = [data_norm.iloc[:, i*step:min((i+1)*step, data_norm.shape[1])] 
-           for i in np.arange(num_cores)]
+    if num_cores > math.floor(data_norm.shape[1]/2):
+         num_cores=int(math.floor(data_norm.shape[1]/2))
+    ttt = np.array_split(data_norm,num_cores,axis=1)
     tuples = [(l, d, u, s, c, a) for l, d, u, s, c, a in zip(repeat(locs, num_cores), ttt,
                                     repeat(smooth_factor, num_cores),
                                     repeat(unary_scale_factor, num_cores), 
@@ -1468,9 +1468,9 @@ def estimate_smooth_factor(locs, data_norm, unary_scale_factor=100,
     smooth_factor = 25
 #    pool = mp.Pool()
     num_cores = mp.cpu_count()
-    step=round(data_norm.shape[1]/num_cores)+1
-    ttt = [data_norm.iloc[:, i*step:min((i+1)*step, data_norm.shape[1])] 
-           for i in np.arange(num_cores)]
+    if num_cores > math.floor(data_norm.shape[1]/2):
+         num_cores=int(math.floor(data_norm.shape[1]/2))
+    ttt = np.array_split(data_norm,num_cores,axis=1)
     tuples = [(l, d, u, s, c, a) for l, d, u, s, c, a in zip(repeat(locs, num_cores), ttt,
                                     repeat(unary_scale_factor, num_cores), 
                                     repeat(smooth_factor, num_cores),
